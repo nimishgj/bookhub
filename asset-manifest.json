@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bookhub/static/css/main.a36a4a3c.css",
+    "main.js": "/bookhub/static/js/main.0d4160ac.js",
+    "static/js/787.fda36e81.chunk.js": "/bookhub/static/js/787.fda36e81.chunk.js",
+    "static/media/git.jpg": "/bookhub/static/media/git.dd119875199a57b0ded0.jpg",
+    "index.html": "/bookhub/index.html",
+    "main.a36a4a3c.css.map": "/bookhub/static/css/main.a36a4a3c.css.map",
+    "main.0d4160ac.js.map": "/bookhub/static/js/main.0d4160ac.js.map",
+    "787.fda36e81.chunk.js.map": "/bookhub/static/js/787.fda36e81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a36a4a3c.css",
+    "static/js/main.0d4160ac.js"
+  ]
+}
