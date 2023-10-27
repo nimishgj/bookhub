@@ -1,0 +1,182 @@
+.invalidDetails{
+    display: block;
+    width: fit-content;
+    border:0.1vw solid;
+    padding: 0.5vw;
+    font-size: 1.3vw;
+    max-width: fit-content;
+    position: fixed;
+    top: 35%;
+    left: 43%;
+}
+
+
+
+.welcomeScreenBackground{
+    background-color: #c5c3c2;
+    max-height: 200vh;
+    min-height: 58vh;
+    height: fit-content;
+    scroll-behavior: smooth ;
+    height: fit-content;
+    max-width: 100%;
+    color: #113946;
+    padding: 15vh 15vh 0 5vh; 
+    font-size: 1.3vw;
+    text-align: justify;
+}
+
+.welcomeScreenBackground button{
+    border: none;
+    background-color: #c5c3c2;
+    color: #113946;
+    margin-top: 5vh;
+    padding: 0;
+    border-bottom: solid;
+    letter-spacing: 0.2vw;
+    padding-bottom: 1vh;
+    font-size: 1.3vw;
+}
+
+.adjustFontSize{
+    font-size: 5vw;
+}
+
+.setBackground{
+
+    background-color: #c5c3c2;
+    height: 73vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25vh;
+}
+
+.s{
+    margin-top: 10vh;
+    height: fit-content;
+    display: flex;
+    width: fit-content;
+    max-width: 35vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.some{
+    display: block;
+    background-color: #c5c3c2;
+    min-width: 96%;
+    max-width: 100%;
+    min-height: 20vh;
+    color: #113946;
+    font-size: 1.3vw;
+    text-align: justify;
+    padding-left: 1vw;  
+    padding-right: 1vw;
+}
+
+
+.hoverText{
+    background-color: #d0cfce;
+    width: 24vw;
+    display: block;
+    padding: 1vw;
+    box-shadow: 0px 5px 5px #c5c3c2;
+}
+
+.alignOptions{
+    display: flex;
+    flex-direction: column; 
+    gap: 5vh;
+}
+
+.selectTypeOfLoginUser{
+    display: flex;  
+    flex-direction: row;
+    gap: 5vh;
+    
+}
+
+.selectTypeOfLoginUser button{
+    border: none;
+    padding: 0.6vw 0.8vw;
+    width: 10vw;
+    background-color: #1c3e4a;
+    font-family: sans-serif;
+    letter-spacing: 0.2vw;
+    font-size: 1.3vw;
+    color: #E3DDD8;
+}
+
+
+.something{
+    display: none;
+}
+
+.s{
+    
+}
+
+.formInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+
+.formInput input{
+    border: none;
+    padding: 1vw 1.3vw;
+    border-bottom:0.1vw solid #113946;
+    font-family: sans-serif;
+    letter-spacing: 0.2vw;
+    background-color: #c5c3c2;
+    font-size: 1.3vw;
+    color: #113946;
+}
+
+.formInput input:focus{
+    outline: none;
+}
+
+/* Default font size for desktop */
+.welcomeScreenBackground {
+    font-size: 1.3vw;
+}
+
+/* For mobile devices, adjust the font size to 1.3vh */
+@media (max-width: 768px) {
+    .welcomeScreenBackground {
+        font-size: 1.3vh;
+    }
+}
+
+
+.loginButton{
+    border: none;
+    padding: 1vw 1.3vw;
+    background-color: #113946;
+    font-family: sans-serif;
+    letter-spacing: 0.2vw;
+    box-shadow: 5px 5px 2px #c5c3c2;
+    font-size: 1.3vw;
+    border-radius: 15px;
+    color: #E3DDD8;
+}
+
+
+
+
+
+
+
+
+
+
+
+

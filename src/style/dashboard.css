@@ -1,0 +1,211 @@
+
+
+::-webkit-scrollbar-thumb{
+    background: #113946;
+}
+
+::-webkit-scrollbar {
+    width: 0.7vw;
+  }
+  
+
+.setBackgroundDashboard{
+    background-color: #c5c3c2;
+    min-height: 100vh;
+    max-height: fit-content;
+    max-width: 100%;
+    padding: 15vh 5vh 0 5vh; 
+    color: #113946;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+.fontDashboard{
+    font-size: 1.6vw;
+    padding-bottom: 3vh;
+}
+
+.changePassword{
+    display: none;
+    width: fit-content;
+    border:0.1vw solid;
+    padding: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.closeButton img{
+    width: 1vw;
+    height: 1vw;
+    object-fit: contain;
+    border:0.1vw solid #113946;
+    padding: 0.2vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+
+.changePasswordInput{
+    border: none;
+    padding: 0.3vw 0.6vw;
+    border-bottom: 0.1vw solid #113946;
+    font-family: sans-serif;
+    letter-spacing: 0.2vw;
+    background-color: #c5c3c2;
+    font-size: 1vw;
+}
+
+.changePasswordInput:focus{
+    outline: none;
+}
+
+.message{
+    display: block;
+    width: fit-content;
+    border:solid;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+}
+
+.dashBoardText{
+    font-size: 1.3vw;
+    text-align: justify;
+    padding-bottom: 5vh;
+}
+
+.addDocument{
+    max-width: fit-content;
+    border-bottom: 0.1vw solid #113946;
+    margin-bottom: 2vh;
+}
+
+.DetailsText{
+    line-height: 4vh;
+}
+
+.changePasswordButton{
+    border: 0.1vw solid #113946;
+    background-color: #113946;
+    color: #c5c3c2;
+    padding: 0.3vw 0.6vw;
+    width: fit-content;
+    font-size: 1.3vw;
+    margin:2vh 0 5vh 0;
+}
+
+.changePasswordButton:hover{
+    border: 0.1vw solid #113946;
+    background-color: #c5c3c2;
+    color: #113946;
+}
+
+.borderStyle{
+    border: 0.1vw solid #113946;
+    padding: 1vw 1vw 2vw ;
+    margin-top: 3vw;
+}
+
+.addItems{
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+
+.addItems input{
+    border: none;
+    padding: 0.3vw 0.6vw;
+    border-bottom: 0.1vw solid #113946;
+    font-family: sans-serif;
+    letter-spacing: 0.2vw;
+    color: #113946;
+    background-color: #c5c3c2;
+    font-size: 1vw;
+}
+
+.addItems input:focus{
+    outline: none;
+}
+
+.addItems button{
+    border: 0.1vw solid #113946;
+
+    padding: 0.3vw 1.6vw;
+    background-color: #113946;
+    font-size: 1vw;
+    color: #E3DDD8;
+}
+
+.addItems button:hover{
+    border:0.1vw solid #113946;
+    background-color: #c5c3c2;
+    color: #113946;
+}
+
+
+
+
+
+.documentsHead{
+    width: fit-content;
+    padding-top: 7vh;
+    border-bottom: 0.1vw solid #113946;
+}
+
+
+
+.documents{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 2vw;
+}
+
+.documentsInfo{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1vw solid #113946;
+    padding: 0.3vw 0.6vw;
+}
+
+.docs{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+}
+
+
+
+.documentsInfo button{
+    border: 0.1vw solid #c5c3c2;
+    background-color: #113946;
+    color: #c5c3c2;
+    font-size: 1.3vw;
+    padding: 0.3vw 0.6vw;
+}
+
+.documentsInfo button:hover{
+    border: 0.1vw solid #113946;
+    background-color: #c5c3c2;
+    color: #113946;
+}
+
+.gap{
+    margin: 1vw;
+    height: 1vw;
+
+}
+
+
+
+
+

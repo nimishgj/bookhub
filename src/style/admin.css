@@ -1,0 +1,109 @@
+.setBackGroundAdmin{
+    background-color: #c5c3c2;
+    min-height: 100vh;
+    max-height: fit-content;
+    max-width: 100%;
+    padding: 10vh 5vh 0 5vh; 
+    color: #113946;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+.adminHeading{
+    font-size: 1.6vw;
+    padding-bottom: 3vh;
+}
+
+.adminText{
+    font-size: 1.3vw;
+    text-align: justify;
+    padding-bottom: 5vh;
+}
+
+.buttonHandleCSS{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 3vw 0 3vw 0;
+    gap: 2vw;
+}
+
+.cssButton{
+    font-size: 1.3vw;
+    border: 0.1vw solid #113946;
+    background-color: #c5c3c2;
+    color: #113946;
+    padding: 0.3vw 0.6vw;
+    width: fit-content;
+}
+
+.cssButton:hover{
+    border: none;
+    border: 0.1vw solid #113946;
+    background-color: #113946;
+    color: #E3DDD8;
+}
+
+
+.RecentLogs{
+    margin-top: 0.5vw;
+}
+
+.docs{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+}
+
+.docsButton{
+    font-size: 1.3vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+    background-color: #c5c3c2;
+    padding: 0.3vw 0.6vw;
+    width: fit-content;
+}
+
+.docsButton button{
+    border: 0.1vw solid #c5c3c2;
+    background-color: #113946;
+    color: #c5c3c2;
+    font-size: 1.3vw;
+    padding: 0.3vw 0.6vw;
+}
+
+.docsButton button:hover{
+    border: 0.1vw solid #113946;
+    background-color: #c5c3c2;
+    color: #113946;
+}
+
+.documentsInfo{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1vw solid #113946;
+    padding: 0.3vw 0.6vw;
+}
+
+.searchDocument{
+    border: none;
+    border-bottom: 0.1vw solid #113946;
+    background-color: #c5c3c2;
+    padding: 0.3vw 0.6vw;
+    font-size: 1.3vw;
+    color: #113946;
+    max-width: fit-content;
+    margin-bottom: 3vw;
+}
+
+.searchDocument:focus{
+    outline: none;
+}

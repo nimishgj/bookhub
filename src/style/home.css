@@ -1,0 +1,92 @@
+.setBackgroundHome{
+
+    background-color: #c5c3c2;
+    min-height: 58vh;
+    max-height: fit-content;
+    max-width: 100%;
+    padding: 15vh 15vh 0 5vh; 
+    color: #113946;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+
+}
+
+.message{
+    display: block;
+    width: fit-content;
+    border:solid;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+}
+
+.adjustFontSize{
+    font-size: 5vw;
+}
+
+.homeText{
+    font-size: 1.3vw;
+    text-align: justify;
+    padding-bottom: 5vh;
+}
+
+.schemaSelectButton{
+    width: fit-content;
+    background-color: #113946;
+    border: none;
+    color: #c5c3c2;
+    font-size: 1.3vw;
+    padding: 0.3vw 0.5vw;
+    letter-spacing: 0.1vw;
+}
+
+
+.subjectSelectButton{
+    margin-top: 3vh;
+    width: fit-content;
+    background-color: #113946;
+    border: none;
+    color: #c5c3c2;
+    font-size: 1.3vw;
+    padding: 0.3vw 0.5vw;
+    letter-spacing: 0.12vw;
+}
+
+.documents{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 2vw;
+}
+
+.documentsInfo{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1vw solid #113946;
+    padding: 0.3vw 0.6vw;
+}
+
+.docs{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+}
+
+.documentsInfo button{
+    border: 0.1vw solid #c5c3c2;
+    background-color: #113946;
+    color: #c5c3c2;
+    font-size: 1.3vw;
+    padding: 0.3vw 0.6vw;
+}
+
+.documentsInfo button:hover{
+    border: 0.1vw solid #113946;
+    background-color: #c5c3c2;
+    color: #113946;
+}
